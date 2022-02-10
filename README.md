@@ -680,6 +680,11 @@ git flow feature start MYFEATURE
 ```
 git flow feature finish MYFEATURE
 ```
+##### Merging a feature without losing the commit history of the  feature brach.
+```
+git merge --on-ff MYFEATURE
+```
+
 
 ##### Publish a feature:
 ###### Are you developing a feature in collaboration? Publish a feature to the remote server so it can be used by other users.
